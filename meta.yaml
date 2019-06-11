@@ -1,0 +1,21 @@
+package:
+  name: pymesh
+  version: 0.1.0
+
+source:
+  git_url: https://github.com/PyMesh/PyMesh.git
+  git_rev: master
+
+
+requirements:
+  build:
+    - python=3.7
+    - pip
+    - scipy
+    - cmake
+    - numpy
+    - nose
+
+  run:
+    - python=3.7
+
