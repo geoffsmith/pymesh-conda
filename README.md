@@ -5,7 +5,7 @@ A conda build configuration to create a conda package for PyMesh https://github.
 
 ### Build Instructions
 
-* From this directory, run `docker run -ti --rm -v `pwd`:/build continuumio/miniconda /bin/bash`
+* From this directory, run ``docker run -ti --rm -v `pwd`:/build continuumio/miniconda /bin/bash``
 * Run `conda install conda-build anaconda-client`
 * Run `cd /build; conda build .`
 * Login to anaconda with `anaconda login`
