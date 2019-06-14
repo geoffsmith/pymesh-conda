@@ -9,13 +9,25 @@ source:
 
 requirements:
   build:
+    - {{ compiler('c') }}
+    - {{ compiler('cxx') }}=5.4.0
+    - cmake
+  host:
     - python=3.7
     - pip
     - scipy
-    - cmake
     - numpy
     - nose
+    - make
+    - gmp=6.1.2
+    - mpfr=4.0.1
+    - boost=1.67.0
+    - tbb
+    - tbb-devel
+    - eigen
 
   run:
     - python=3.7
+    - numpy
+    - boost=1.67.0
 
