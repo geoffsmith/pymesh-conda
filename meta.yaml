@@ -12,7 +12,7 @@ source:
 requirements:
   build:
     - {{ compiler('c') }}
-    - {{ compiler('cxx') }}=5.4.0
+    - {{ compiler('cxx') }}
     - cmake
     - make
   host:
